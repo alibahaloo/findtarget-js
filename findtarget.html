@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/default.css" rel="stylesheet" />
+        <script src="scripts/libs/findtarget_lib.js"></script>
+        <script src="scripts/findtarget.js"></script>
+ 
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">          
+                     
+        <title>Find Target</title>
+    </head>
+    <body class="body_main">
+        <header class="header">
+                <table class="table_max">
+                    <tr>
+                        <td>
+                            <a href="findtarget.html">
+                                <img src="images/findtarget.png" alt="Find the Target" />    
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+        </header>
+        <div id="container_main">
+            <div>
+                <h3>The target will flash for a second randomly, look for and click on it.</h3>
+                <div>
+                    <button id="btn_luck_reset" class="btn_luck" >Reset Game</button>
+                    <input type="checkbox" name="hint" id="hint" value="hint"><label for="hint">Show Hint Buttons</label> 
+                    <button id="btn_luck_flash" class="btn_luck" style="visibility: hidden">Flash Target</button>
+                    <button id="btn_luck_show" class="btn_luck" style="visibility: hidden">Show Target</button>
+                </div>
+                <h3>Score:</h3>
+                <p id="score_won">Correct:</p>
+                <p id="score_lost">Incorrect:</p>
+            </div>
+            <hr>
+            <div id="game_luck">
+        
+            </div>
+            <hr>
+        </div>
+    </body>
+
+</html>

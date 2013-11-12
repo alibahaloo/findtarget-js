@@ -1,0 +1,73 @@
+﻿.body_main {
+	background-color: #E6EFEF;
+}
+
+.header {
+    height:64px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.table_max {
+	width:100%;
+	height:100%;
+}
+
+
+.btn_luck {
+    background-color:#2D3333;
+    color:#BAD645;
+    font-family:Helvetica;
+    font-size:20px;
+    
+    border-color:#749EA9;
+    border:2px #749EA9 solid;
+    
+    border-radius:0px; 
+}
+
+.luck {
+    height: 64px;
+    width: 64px;
+    float: left;
+    background: url('../images/luck.png');
+}
+
+.luck_block {
+    height: 64px;
+    width: 64px;
+    float: left;
+}
+
+h3 {
+    font-family:Helvetica;
+    color: #749EA9;
+}
+
+
+#container_main {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:30px;
+    width:960px;
+    font-size:20px; 
+}
+
+#game_luck {
+    width:100%;
+    height:100%;
+    min-height:330px;
+    float:right;
+}
+
+#score_won{
+    color:#000000;
+    font-family:Helvetica;
+    font-size:24px;
+}
+
+#score_lost{
+    color:#000000;
+    font-family:Helvetica;
+    font-size:24px;
+}
